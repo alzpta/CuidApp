@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0e1420, #1a2230);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.emergencia-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.emergencia-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.emergencia-card p {
+  color: #c0d8f0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn-emergencia {
+  background-color: #ff4444;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  padding: 14px 20px;
+  width: 100%;
+  cursor: pointer;
+}
