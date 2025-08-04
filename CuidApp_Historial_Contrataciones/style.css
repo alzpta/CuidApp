@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0e1420, #1a2230);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.historial-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.historial-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.historial-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.historial-card p {
+  margin: 6px 0;
+  color: #c0d8f0;
+}
