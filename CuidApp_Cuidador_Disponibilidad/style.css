@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0e1420, #1a2230);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.disponibilidad-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.day {
+  flex: 1;
+  margin: 0 5px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.day span {
+  display: block;
+  font-size: 24px;
+  margin-top: 4px;
+}
+
+.day.selected {
+  background-color: #00c896;
+  color: #fff;
+}
+
+.horarios {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.horarios h3 {
+  margin-top: 0;
+}
+
+.horarios p {
+  color: #c0d8f0;
+  margin: 8px 0;
+}
+
+.horarios button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background-color: #00c896;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
